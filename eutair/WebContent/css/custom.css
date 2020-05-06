@@ -20,7 +20,9 @@
 }
 
 .card-body-c {
-    color: white;
+    color: #0A0A0A;
+    text-align: justify;
+    font-size: 1.1em;
 }
 
 .card-box-ico {
@@ -32,7 +34,9 @@
 }
 
 .color-text-a {
-    color: white;
+    color: #0A0A0A;
+    text-align: justify;
+    font-size: 1.1em;
 }
 
 .color-a {
@@ -98,6 +102,10 @@ a {
 
 .navbar-default.navbar-trans .nav-link:hover {
     color: #4C97AA;
+}
+
+.card-shadow:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 27%, rgba(0, 0, 0, 0.25) 90%);
 }
 
 /* Slider */
