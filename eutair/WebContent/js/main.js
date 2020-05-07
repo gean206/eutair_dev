@@ -1,26 +1,29 @@
 (function ($) {
   "use strict";
   
-  $('.customer-logos').slick({
-		slidesToShow: 4,
-		variableWidth: true,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 1000,
-		arrows: false,
-		dots: false,
-			pauseOnHover: false,
-			responsive: [{
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 3
+
+	  $('.customer-logos').slick({
+		speed : 2000,
+		slidesToShow : 1,
+		variableWidth : true,
+		slidesToScroll : 1,
+		autoplay : true,
+		autoplaySpeed : 0,
+		cssEase : 'linear',
+		arrows : false,
+		dots : false,
+		pauseOnHover : false,
+		responsive : [ {
+			breakpoint : 768,
+			settings : {
+				slidesToShow : 1
 			}
 		}, {
-			breakpoint: 520,
-			settings: {
-				slidesToShow: 2
+			breakpoint : 520,
+			settings : {
+				slidesToShow : 1
 			}
-		}]
+		} ]
 	});
   
   // Preloader
