@@ -3,8 +3,9 @@
   
 
 	  $('.customer-logos').slick({
+		  useTransform: true,
 		speed : 2000,
-		slidesToShow : 1,
+		slidesToShow : 6,
 		variableWidth : true,
 		slidesToScroll : 1,
 		autoplay : true,
