@@ -5,7 +5,7 @@
 	  $('.customer-logos').slick({
 		  useTransform: true,
 		speed : 2000,
-		slidesToShow : 6,
+		slidesToShow : 9,
 		variableWidth : true,
 		slidesToScroll : 1,
 		autoplay : true,
