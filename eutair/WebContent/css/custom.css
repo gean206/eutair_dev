@@ -9,7 +9,7 @@
 }
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: #FFF;
     font-weight: 600;
     letter-spacing: 0.030em;
@@ -101,6 +101,10 @@ a {
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
+    color: #4C97AA;
+}
+
+.navbar-default.navbar-reduce .nav-link:hover {
     color: #4C97AA;
 }
 
