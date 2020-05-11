@@ -116,6 +116,10 @@ a {
 	border: 2px solid black;
 }
 
+#carousel {
+    margin-top: 100px;
+}
+
 /* Slider */
 .slick-slide {
     margin: 0px 20px;
