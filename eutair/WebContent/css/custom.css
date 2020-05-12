@@ -133,6 +133,12 @@ a {
     justify-content: flex-end !important;
 }
 
+#nav-email-phone{
+	float: left;
+    padding-bottom: 7px;
+    width: 16%;
+}
+
 /* Slider */
 .slick-slide {
     margin: 0px 20px;
