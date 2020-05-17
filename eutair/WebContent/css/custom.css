@@ -117,7 +117,7 @@ a {
 }
 
 #carousel {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .intro {
@@ -137,6 +137,26 @@ a {
 	float: left;
     padding-bottom: 7px;
     width: 22%;
+}
+
+#navbarDefault{
+	margin-left: 90px;
+}
+
+.navbar-default {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+   
+.navbar-default.navbar-reduce {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.color-text-black{
+	color: #0A0A0As;
+    text-align: justify;
+    font-size: 1.1em;
 }
 
 /* Slider */

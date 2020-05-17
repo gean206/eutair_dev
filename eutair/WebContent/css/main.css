@@ -1827,6 +1827,11 @@ footer .credits {
   .sinse-box .sinse-title {
     font-size: 1.8rem;
   }
+  
+  #nav-email-phone {
+    float: left;
+    padding-bottom: 7px;
+  }
 }
 
 @media (min-width: 768px) and (min-width: 768px) {
