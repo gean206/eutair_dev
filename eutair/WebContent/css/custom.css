@@ -159,6 +159,21 @@ a {
     font-size: 1.1em;
 }
 
+.sub-service-ul{
+	display:         flex;
+  	list-style-type: none;
+  	width:           100%;
+  	flex-wrap:       wrap;
+}
+
+.sub-service-li{
+	flex: 20%;
+}
+
+.intro-single {
+    padding: 8rem 0 1rem;
+}
+
 /* Slider */
 .slick-slide {
     margin: 0px 20px;
