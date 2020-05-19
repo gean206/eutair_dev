@@ -144,13 +144,13 @@ a {
 }
 
 .navbar-default {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
    
 .navbar-default.navbar-reduce {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .color-text-black{
