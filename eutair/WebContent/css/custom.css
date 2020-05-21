@@ -300,3 +300,16 @@ a {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/* Product fonts */
+
+@media (min-width: 1200px) {
+  .card-box-d .card-overlay-hover {
+    padding: 15px 40px 5px 35px;
+  }
+
+  .card-box-d .title-d {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+  }
+}
