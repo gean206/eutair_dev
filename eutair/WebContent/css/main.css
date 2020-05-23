@@ -1648,7 +1648,7 @@ footer .credits {
 
 @media (min-width: 576px) {
   .intro .intro-title {
-    font-size: 3.5rem;
+     font-size: 2rem; /* prev 3.5em */
   }
 
   .intro .intro-subtitle.intro-price {
@@ -1865,7 +1865,7 @@ footer .credits {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 3rem; /* prev 4.5em */
   }
 
   .intro .intro-subtitle.intro-price {
