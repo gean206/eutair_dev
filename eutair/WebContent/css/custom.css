@@ -9,7 +9,7 @@
 }
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
-    font-size: 14px;
+    font-size: 1.2rem;
     color: #FFF;
     font-weight: 600;
     letter-spacing: 0.030em;
@@ -195,11 +195,23 @@ a {
   	color: white;
 }
 
-.centered-custom {
+.about-centered-custom {
   position: absolute;
   top: 80%;
   left: 92%;
   transform: translate(-50%, -50%);
+}
+
+.centered-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-overlay {
+	height: 20%;
+	top: 80%;
 }
 
 /* Table pressure */
