@@ -5,7 +5,7 @@
 .navbar-default.navbar-trans, .navbar-default.navbar-reduce {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: #0A0A0A;
+    background: gray;
 }
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
