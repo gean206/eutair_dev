@@ -209,7 +209,7 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.card-overlay {
+.card-overlay-custom {
 	height: 20%;
 	top: 80%;
 }
