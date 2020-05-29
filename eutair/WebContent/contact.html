@@ -45,8 +45,7 @@
 				aria-label="Toggle navigation">
 				<span></span> <span></span> <span></span>
 			</button>
-			<a class="navbar-brand text-brand" href="welcome.html"><img
-				src="img/eut-logo/logo_wix.jpg" alt=""></a>
+			<logo></logo>
 			<button type="button"
 				class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none"
 				data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -101,13 +100,7 @@
 				</ul>
 			</div>
 		</div>
-		<div id="nav-email-phone">
-			<span style="font-size: 1em; margin-right: 10px;"> <i
-				class="fa fa-envelope-o fa-lg"></i> <a href="#"><b>support@eutair.com</b></a>
-			</span> <br> <span style="font-size: 1em;"> <i
-				class="fa fa-phone fa-lg"></i> <a href="#"> <b>+91-9582911766</b></a>
-			</span>
-		</div>
+		<contact-info class="contact-info-custom"></contact-info>
 	</nav>
 	<!--/ Nav End /-->
 
@@ -118,14 +111,14 @@
 				<div class="col-md-12 col-lg-8">
 					<div class="title-single-box">
 						<h1 class="title-single">Contact US</h1>
-						<span class="color-text-a">Our Guiding Principles:
+						<span class="color-text-b">Our Guiding Principles:
 							Commitment, Passion, Integrity, Respect and Service Excellence</span><br>
-						<span class="color-text-a">Eutair is working to build a
+						<span class="color-text-b">Eutair is working to build a
 							world-class customer service organization. The guiding principles
 							provide the foundation for our daily work routine. Our engineers
 							are brand ambassadors whose hard work and determination is the
 							driving force behind our goal to make Eutair the most admired
-							pneumatic company.</span><br> <span class="color-text-a">We’ll
+							pneumatic company.</span><br> <span class="color-text-b">We’ll
 							love to serve you. Please contact us for your requirements. </span>
 					</div>
 				</div>
@@ -300,54 +293,7 @@
 	<!--/ Contact End /-->
 
 	<!--/ footer Star /-->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<nav class="nav-footer">
-						<ul class="list-inline">
-							<li class="list-inline-item"><a href="index.html">Home</a></li>
-							<li class="list-inline-item"><a href="abo-whoweare.html">About</a></li>
-							<li class="list-inline-item"><a href="career.html">Career</a></li>
-							<li class="list-inline-item"><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-					<div class="socials-a">
-						<ul class="list-inline">
-							<li class="list-inline-item"><a href="#" target="_blank">
-									<i class="fa fa-linkedin" aria-hidden="true"
-									style="color: white;"></i>
-							</a></li>
-							<li class="list-inline-item"><a
-								href="https://twitter.com/EutairE" target="_blank"> <i
-									class="fa fa-twitter" aria-hidden="true" style="color: white;"></i>
-							</a></li>
-							<li class="list-inline-item"><a href="#" target="_blank">
-									<i class="fa fa-facebook" aria-hidden="true"
-									style="color: white;"></i>
-							</a></li>
-
-							<li class="list-inline-item"><a href="#" target="_blank">
-									<i class="fa fa-instagram" aria-hidden="true"
-									style="color: white;"></i>
-							</a></li>
-							<li class="list-inline-item"><a href="#" target="_blank">
-									<i class="fa fa-pinterest-p" aria-hidden="true"
-									style="color: white;"></i>
-							</a></li>
-						</ul>
-					</div>
-					<div class="copyright-footer">
-						<p class="copyright color-text-a" style="text-align: center;">
-							&copy; Copyright <span class="color-a">EutAir</span> All Rights
-							Reserved.
-						</p>
-					</div>
-					<div class="credits">Designed by</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<footer> </footer>
 	<!--/ Footer End /-->
 
 	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -366,8 +312,34 @@
 	<script
 		src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-	<!-- Template Main Javascript File -->
+	<!-- Main Javascript File -->
 	<script src="js/main.js"></script>
+	<!-- Custom Javascript File -->
+	<script type="text/javascript">
+	fetch("./footer.html")
+	  .then(response => {
+	    return response.text()
+	  })
+	  .then(data => {
+	    document.querySelector("footer").innerHTML = data;
+	  });
+	
+	fetch("./logo.html")
+	  .then(response => {
+	    return response.text()
+	  })
+	  .then(data => {
+	    document.querySelector("logo").innerHTML = data;
+	  });
+	
+	fetch("./contact-info.html")
+	  .then(response => {
+	    return response.text()
+	  })
+	  .then(data => {
+	    document.querySelector("contact-info").innerHTML = data;
+	  });
+	</script>
 
 </body>
 </html>

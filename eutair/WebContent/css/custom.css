@@ -43,6 +43,12 @@
     font-size: 1.1em;
 }
 
+.color-text-b {
+    color: #4C97AA;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
 .color-a {
     color: white;
 }
@@ -64,7 +70,7 @@ a {
 }
 
 .color-d {
-    color: white;
+    color: #4C97AA;
 }
 
 .color-bl{
@@ -140,7 +146,17 @@ a {
 #nav-email-phone{
 	float: left;
     padding-bottom: 7px;
-    width: 22%;
+}
+
+.summary-list {
+    padding-right: 0.4em;
+}
+
+.download-custom{
+	font-size: 50px;
+    color: red;
+    padding-top: 0.15em;
+    padding-right: 7px;
 }
 
 #navbarDefault{
@@ -216,6 +232,10 @@ a {
 .card-overlay-custom {
 	height: 20%;
 	top: 80%;
+}
+
+.contact-info-custom{
+	width: 25%;
 }
 
 /* Table pressure */
