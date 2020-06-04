@@ -1,5 +1,5 @@
 .navbar-default.navbar-trans .show > .nav-link, .navbar-default.navbar-trans .active > .nav-link, .navbar-default.navbar-trans .nav-link.show, .navbar-default.navbar-trans .nav-link.active {
-    color: #FFF
+    color: #0A4069
 }
 
 .color-background-custom{
@@ -9,12 +9,12 @@
 .navbar-default.navbar-trans, .navbar-default.navbar-reduce {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: #0A0A0A;
+    background: #FFFFFF;
 }
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
     font-size: 1.2rem;
-    color: #FFF;
+    color: #0A4069;
     font-weight: 600;
     letter-spacing: 0.030em;
     transition: all 0.1s ease-in-out;
@@ -53,7 +53,20 @@
 }
 
 footer {
-    background: #0A0A0A;
+    background: #56D3F3;
+}
+
+@media (min-width: 992px){
+.intro .intro-title {
+    font-size: 2.5rem;
+	}
+}
+
+@media (min-width: 768px){
+.intro .intro-body {
+    padding-left: 2rem;
+    padding-bottom: 14rem;
+	}
 }
 
 .section-footer .item-list-a i {
@@ -61,7 +74,7 @@ footer {
 }
 
 a {
-    color: white;
+    color: #0A4069;
 }
 
 .anchor-color-b{
@@ -69,7 +82,7 @@ a {
 }
 
 .navbar-default.navbar-reduce .show > .nav-link, .navbar-default.navbar-reduce .active > .nav-link, .navbar-default.navbar-reduce .nav-link.show, .navbar-default.navbar-reduce .nav-link.active {
-    color: white;
+    color: #0A4069;
 }
 
 .color-d {

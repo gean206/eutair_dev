@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -70,12 +70,12 @@ border-box
 
 .left {
   left: 0;
-  background-color: #0A0A0A;
+  background-color: #FFFFFF;
 }
 
 .right {
   right: 0;
-  background-color: #CFD9E1;
+  background-color: #0A4069;
 }
 
 .centered {
@@ -95,11 +95,16 @@ border-box
 
 .welcome-msg{
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
   width: 73%;
+  line-height: 1.5;
+}
+
+#nav-email-phone a{
+	color: #FFFFFF;
 }
 
 .social-footer{
@@ -112,7 +117,7 @@ border-box
 }
 
 .message-bold {
-	color: #0A0A0A
+	color: #FFFFFF
 }
 
 .centered img {
@@ -135,7 +140,7 @@ border-box
  
 .nav a {
   text-decoration: none;
-  color: #0A0A0A;
+  color: #FFFFFF;
   display: block;
   transition: .3s background-color;
 }
