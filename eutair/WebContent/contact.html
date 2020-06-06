@@ -126,7 +126,8 @@
 					<nav aria-label="breadcrumb"
 						class="breadcrumb-box d-flex justify-content-lg-end">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a class="anchor-color-b" href="index.html">Home</a></li>
+							<li class="breadcrumb-item"><a class="anchor-color-b"
+								href="index.html">Home</a></li>
 							<li class="breadcrumb-item active" aria-current="page">
 								Contact</li>
 						</ol>
@@ -170,19 +171,29 @@
 										</div>
 									</div>
 									<div class="col-md-6 mb-3">
+									<div class="form-group">
+											<input type="text" name="company"
+												class="form-control form-control-lg form-control-a"
+												placeholder="Company Name" data-rule="required"
+												data-msg="Please enter your company name">
+											<div class="validation"></div>
+										</div>
+									</div>
+									<div class="col-md-6 mb-3">
+									<div class="form-group">
+											<input type="number" name="mobile"
+												class="form-control form-control-lg form-control-a"
+												placeholder="Mobile" data-rule="mobile"
+												data-msg="Please enter a valid phone number">
+											<div class="validation"></div>
+										</div>
+									</div>
+									<div class="col-md-6 mb-3">
 										<div class="form-group">
 											<input name="email" type="email"
 												class="form-control form-control-lg form-control-a"
 												placeholder="Your Email" data-rule="email"
 												data-msg="Please enter a valid email">
-											<div class="validation"></div>
-										</div>
-									</div>
-									<div class="col-md-12 mb-3">
-										<div class="form-group">
-											<input type="url" name="subject"
-												class="form-control form-control-lg form-control-a"
-												placeholder="Subject">
 											<div class="validation"></div>
 										</div>
 									</div>
