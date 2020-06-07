@@ -48,6 +48,10 @@
     font-size: 1.1em;
 }
 
+.color-text-w {
+    color: #FFFFFF;
+}
+
 .color-a {
     color: #4C97AA;
 }
@@ -243,11 +247,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.card-overlay-custom {
-	height: 20%;
-	top: 80%;
 }
 
 .contact-info-custom{
