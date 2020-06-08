@@ -11,7 +11,7 @@ if ($conn->connect_error) {
      die("Connection to database failed: " . $conn->connect_error);
 }
 /* SQL query to get results from database */
-$sql = "SELECT * FROM contacts ";
+$sql = "SELECT * FROM services ";
 $result = $conn->query($sql);
 /* If there are results from database push to result array */
 if ($result->num_rows > 0) {
