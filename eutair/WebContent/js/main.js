@@ -126,8 +126,8 @@
 		}
 	});
 
-	/*--/ Property owl owl /--*/
-	$('#property-single-carousel').owlCarousel({
+	/*--/ service owl owl /--*/
+	$('#service-carousel').owlCarousel({
 		loop: true,
 		margin: 0,  
 		nav: true,
@@ -136,7 +136,10 @@
 			0: {
 				items: 1,
 			}
-		}
+		},
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true
 	});
 
 	/*--/ News owl /--*/
@@ -164,8 +167,9 @@
 		animateOut: 'fadeOut',
 		animateIn: 'fadeInUp',
 		navText: ['<i class="ion-ios-arrow-back" aria-hidden="true"></i>', '<i class="ion-ios-arrow-forward" aria-hidden="true"></i>'],
-		autoplayTimeout: 4000,
+		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
+		loop: true,
 		responsive: {
 			0: {
 				items: 1,
