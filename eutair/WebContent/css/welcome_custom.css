@@ -249,7 +249,7 @@ border-box
 }
 
 .navbar{
-	padding: 0.5rem 3rem;
+	padding: 0.5rem 2rem 0rem 42rem;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -258,4 +258,24 @@ border-box
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
     color: #FFFFFF;
+}
+
+
+
+/* Welcome New Custom */
+
+.welcome-description{
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (min-width: 1200px){
+	.welcome-section {
+	    padding: 50px 15px 29px;
+	}
+}
+
+.navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
+    font-size: 1rem;
 }
