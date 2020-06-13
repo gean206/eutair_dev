@@ -108,12 +108,7 @@ border-box
 }
 
 .social-footer{
-	position: absolute;
-    top: 75%;
-    left: 18%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    width: 26%;
+    width: 31%;
 }
 
 .message-bold {
@@ -240,7 +235,7 @@ border-box
 
 .navbar-default {
     transition: all .5s ease-in-out;
-    background-color: #0A4069;
+    background-color: #F5F8F8;
     padding-top: 0;
     padding-bottom: 0;
     -webkit-backface-visibility: hidden;
@@ -248,19 +243,40 @@ border-box
     box-shadow: none;
 }
 
-.navbar{
-	padding: 0.5rem 2rem 0rem 42rem;
+@media (min-width: 992px){
+	.navbar{
+		padding: 0em 0rem 0rem 42.28rem;
+	}
+	
+	.navbar-default.navbar-trans, .navbar-default.navbar-reduce {
+    	background: #F5F8F8;
+	}
+	
+	.device-bg-color {
+		margin-right: unset; 
+		background-color: #0A4069;
+	}
+	
+	.navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
+	    color: #FFFFFF;
+	}
+	
+	.navbar-default.navbar-trans .nav-link:hover {
+	    color: #FFFFFF;
+	}
 }
 
-.navbar-default.navbar-trans .nav-link:hover {
-    color: #FFFFFF;
+@media (max-width: 991.98px){
+	.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+	    padding-top: 50px;
+	}
 }
 
-.navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
-    color: #FFFFFF;
+.navbar-default.navbar-trans, .navbar-default.navbar-reduce {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #F5F8F8;
 }
-
-
 
 /* Welcome New Custom */
 
@@ -272,10 +288,29 @@ border-box
 }
 @media (min-width: 1200px){
 	.welcome-section {
-	    padding: 50px 15px 29px;
+	    padding: 0px 15px 0px 0px;
 	}
 }
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
     font-size: 1rem;
+}
+
+#navbarDefault {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+
+.navbar-default.navbar-trans .nav-item, .navbar-default.navbar-reduce .nav-item {
+    position: relative;
+    padding-right: 20px;
+    padding-bottom: 12px;
+}
+
+.color-text-white{
+	color: #FFFFFF;
+    text-align: justify;
+    font-size: 1em;
 }
