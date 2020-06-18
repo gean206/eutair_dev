@@ -64,9 +64,13 @@ footer {
 }
 
 @media (min-width: 768px){
-.intro .intro-body {
-    padding-left: 2rem;
-    padding-bottom: 14rem;
+	.intro-custom{
+		padding-left: 32em;
+		padding-bottom: 14rem;
+	}
+	.intro .intro-body {
+	    padding-left: 2rem;
+	    padding-bottom: 14rem;
 	}
 }
 
@@ -524,6 +528,39 @@ tr:nth-child(even) {
 	text-decoration: underline;
 }
 
-/* .tagline-size{ */
-/* 	font-size: 2rem; */
-/* } */
+.animate-a {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.animate-a:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+}
+
+.get-quotes-blink{
+	animation: getQuotes 0.5s infinite;
+}
+
+@keyframes getQuotes{
+	0%{		color: #000;	}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	100%{	color: #000;	}
+}

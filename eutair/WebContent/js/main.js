@@ -178,3 +178,7 @@
 	});
 
 })(jQuery);
+
+function scrollDown(){
+	window.location.href = '#contactPage';
+}
