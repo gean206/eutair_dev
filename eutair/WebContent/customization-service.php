@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Air audit - Eutair Equipments</title>
+<title>Product Customization - Eutair Equipments</title>
 <meta
 	content="width=device-width, initial-scale=1.0"
 	name="viewport">
 <meta
-	content="Air audit, EutAir Equipments, Elgi,Ingersoll Rand ,Gardner Denver ,Atlas Copco,Evolution,FS Curtis,Roteck,Venus ,Kaeser,Chicago pneumatics,Comptech,Mark air compressor,Delhi,Gurgaon ,Meerut,Faridabad,Ghaziabad,Sonepat,Delhi,Noida ,Greater Noida ,Manesar ,Bhiwadi,Alwar ,Moradabad ,Okhla ,Bawana ,Bahadurgarh,Ballabgarh,India ,Nepal ,Myanmar,Sri Lanka ,Bangladesh,Pakistan,Nigeria ,UAE,Dubai ,UAE ,United Arab Emirates, air audit ,energy ,audit optimization ,saving ,leakages ,electricity ,power ,health ,efficiency ,pressure ,services,current"
+	content="Product Customization, EutAir Equipments, Elgi,Ingersoll Rand ,Gardner Denver ,Atlas Copco,Evolution,FS Curtis,Roteck,Venus ,Kaeser,Chicago pneumatics,Comptech,Mark air compressor,Delhi,Gurgaon ,Meerut,Faridabad,Ghaziabad,Sonepat,Delhi,Noida ,Greater Noida ,Manesar ,Bhiwadi,Alwar ,Moradabad ,Okhla ,Bawana ,Bahadurgarh,Ballabgarh,India ,Nepal ,Myanmar,Sri Lanka ,Bangladesh,Pakistan,Nigeria ,UAE,Dubai ,UAE ,United Arab Emirates"
 	name="keywords">
 <meta
-	content="Optimization of Compressed air system, Capacity check, efficiency check, measure"
+	content="Designing , packaging skid mounted , compressor block kirloskar, Ingersoll Rand , Elgi , Mark non standard air compressor"
 	name="description">
 <!-- Favicons -->
 <link
@@ -51,9 +51,112 @@
 </head>
 <body>
 	<!--/ Nav Star /-->
-	<?php
-    include 'nav.php';
-    ?>
+	<nav
+		class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+		<div
+			class="container"
+			style="margin-right: unset;">
+			<button
+				class="navbar-toggler collapsed"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarDefault"
+				aria-controls="navbarDefault"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span></span> <span></span> <span></span>
+			</button>
+			<logo></logo>
+			<div
+				class="navbar-collapse collapse justify-content-center"
+				id="navbarDefault">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a
+						class="nav-link"
+						href="index.html">Home</a></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown-about"
+						role="button"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"> About Us </a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown-about">
+							<a
+								class="dropdown-item"
+								href="who-we-are.html">Who We Are</a> <a
+								class="dropdown-item"
+								href="press-release-certificate.html">Press Release &
+								Certification</a>
+						</div></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown-product"
+						role="button"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"> Products </a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown-product">
+							<a
+								class="dropdown-item"
+								href="screw-air-compressor.html">Screw Air Compressor<img
+								alt=""
+								src="img/eut-prod/sm-mark-compressors_logo.jpg" />
+							</a> <a
+								class="dropdown-item"
+								href="refrigerated-air-dryer.html">Refrigerated Air Dryers<img
+								alt=""
+								src="img/eut-prod/sm-mark-compressors_logo.jpg" />
+							</a> <a
+								class="dropdown-item"
+								href="reciprocating-compressor-and-dryer.html">Reciprocating Compressor & Dryer</a>
+							<a
+								class="dropdown-item"
+								href="spare-parts.html">Spare Parts</a> <a
+								class="dropdown-item"
+								href="pressure-vessel.html">Pressure Vessel</a>
+						</div></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown-service"
+						role="button"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false">Services</a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown-service">
+							<a
+								class="dropdown-item"
+								href="amc-service.php">Annual Maintenance Contract</a> <a
+								class="dropdown-item"
+								href="engineering-consultancy-service.html">Engineering Consultancy</a> <a
+								class="dropdown-item"
+								href="epc-turnkey-service.html">EPC-Turnkey Solutions</a> <a
+								class="dropdown-item"
+								href="air-audit-service.php">Air Audits</a> <a
+								class="dropdown-item active"
+								href="customization-service.html">Product Customization</a> <a
+								class="dropdown-item"
+								href="training-workshop-service.html">Seminars, Webinars & Workshops</a><a
+								class="dropdown-item"
+								href="waste-water-engineering.html">Wastewater Engineering</a>
+						</div></li>
+					<li class="nav-item"><a
+						class="nav-link"
+						href="contact.php">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<contact-info class="contact-info-custom"></contact-info>
+	</nav>
 	<!--/ Nav End /-->
 	<!--/ Intro Single star /-->
 	<section class="intro-single color-background-custom">
@@ -61,8 +164,8 @@
 			<div class="row">
 				<div class="col-md-12 col-lg-6">
 					<div class="title-single-box">
-						<h1 class="title-single">Air Audits</h1>
-						<span class="color-text-a">Audits</span>
+						<h1 class="title-single">Product Customization</h1>
+						<span class="color-text-a">Tailor Made</span>
 					</div>
 				</div>
 				<div class="col-md-12 col-lg-6">
@@ -78,7 +181,7 @@
 								href="#">Services</a></li>
 							<li
 								class="breadcrumb-item active"
-								aria-current="page">Air Audits</li>
+								aria-current="page">Product Customization</li>
 						</ol>
 					</nav>
 				</div>
@@ -96,19 +199,21 @@
 						class="owl-carousel owl-arrow gallery-property">
 						<div class="carousel-item-b">
 							<img
-								src="img/eut-services/air-audit.jpg"
-								alt="Air Audit">
+								src="img/eut-services/custom-1.jpg"
+								alt="Eutair Product Customization">
 							<div class="intro-content display-table centered-custom">
 								<div class="table-cell">
 									<div class="container">
 										<div class="row">
-											<div class="col-lg-10">
+											<div class="col-lg-12">
 												<div class="intro-body">
-													<h1 class="intro-title mb-4 tagline-size">
-														<span class="color-eutair">Air is free, compressed
-															air is not.</span><br>We audit the most difficult, identify
-														and plug-out <br>the inefficiencies in compressed air
-														system.
+													<p class="intro-title-top"></p>
+													<h1
+														class="intro-title mb-4 tagline-size"
+														style="padding-left: 14rem; padding-bottom: 23rem;">
+														<span style="color: white;">We make</span> <span
+															class="color-eutair">exactly </span> <span
+															style="color: white;">as per your requirement</span>
 													</h1>
 												</div>
 											</div>
@@ -119,19 +224,20 @@
 						</div>
 						<div class="carousel-item-b">
 							<img
-								src="img/eut-services/air-audit-2.png"
-								alt="Air Audit">
+								src="img/eut-services/custom-2.jpg"
+								alt="Eutair Product Customization">
 							<div class="intro-content display-table centered-custom">
 								<div class="table-cell">
 									<div class="container">
 										<div class="row">
-											<div class="col-lg-8">
+											<div class="col-lg-10">
 												<div class="intro-body">
 													<p class="intro-title-top"></p>
-													<h1 class="intro-title mb-4 tagline-size">
-														<span style="color: #FFFFFF">Get your overall <br>system
-															health checked today!!
-														</span>
+													<h1
+														class="intro-title mb-4 tagline-size"
+														style="padding-left: 29rem; padding-bottom: 25rem;">
+														<span class="color-eutair">Tailor made solutions </span> <br>
+														<span style="color: white;">that fits your budget</span>
 													</h1>
 												</div>
 											</div>
@@ -146,13 +252,43 @@
 							<div class="service-price d-flex justify-content-center foo">
 								<div class="card-header-c d-flex">
 									<div class="card-box-ico">
-										<span class="fa fa-usd"></span>
+										<span class="fa fa-refresh fa-spin fa-3x fa-fw"></span>
 									</div>
 									<div class="card-title-c align-self-center">
-										<h5 class="title-c">Air Audits</h5>
+										<h5 class="title-c">Product Customization</h5>
 									</div>
 								</div>
 							</div>
+							<!-- 							<div class="service-summary"> -->
+							<!-- 								<div class="row"> -->
+							<!-- 									<div class="col-sm-12"> -->
+							<!-- 										<div class="title-box-d section-t4"> -->
+							<!-- 											<h3 class="title-d">Quick Summary</h3> -->
+							<!-- 										</div> -->
+							<!-- 									</div> -->
+							<!-- 								</div> -->
+							<!-- 								<div class="summary-list"> -->
+							<!-- 									<ul class="list"> -->
+							<!-- 										<li class="d-flex justify-content-between"><strong>Download -->
+							<!-- 												Brochure:</strong> <span><a href="img/docs/mark-brochure.pdf" -->
+							<!-- 												download>Click Here</a></span></li> -->
+							<!-- 									</ul> -->
+							<!-- 									<div class="card-box-d"> -->
+							<!-- 										<div class="card-img-d"> -->
+							<!-- 											<img src="img/docs/certificate.jpg" alt="" -->
+							<!-- 												class="img-d img-fluid"> -->
+							<!-- 										</div> -->
+							<!-- 										<div -->
+							<!-- 											class="card-overlay card-overlay-hover card-overlay-custom"> -->
+							<!-- 											<div class="card-header-d"> -->
+							<!-- 												<div class="card-title-d align-self-center"> -->
+							<!-- 													<h3 class="title-d">Certification</h3> -->
+							<!-- 												</div> -->
+							<!-- 											</div> -->
+							<!-- 										</div> -->
+							<!-- 									</div> -->
+							<!-- 								</div> -->
+							<!-- 							</div> -->
 						</div>
 						<div class="col-md-7 col-lg-7 section-md-t3">
 							<div class="row">
@@ -163,51 +299,53 @@
 								</div>
 							</div>
 							<div class="service-description">
-								<p class="description color-text-black">Performing a
-									compressed air audit of your system is the first step in
-									determining issues that could be hindering your unit’s
-									efficiency and unnecessarily increasing energy costs. Key
-									deliverable is to optimize the efficiency of complete
-									compressed air system so as to bring down the production &
-									maintenance cost. Air audits are also a solution to correct
-									sizing of compressed air system at Generation side to match the
-									air requirement at demand side. A typical air audit brings down
-									the electricity cost by average 30%.</p>
+								<p class="description color-text-black">Our core strength
+									lies in designing, packaging and executing non-standard/
+									customized medium and high pressure air requirements in the
+									most economical manner and we believe in passing the benefit on
+									to our esteemed customers. We incorporate add-ons and do
+									packaging for bare compressors with desired makes of piston
+									type reciprocating air compressors as per the exact
+									requirements in the most economical manner that not only makes
+									your system efficient but also reduce high cost burden on your
+									annual budgets on new procurement and maintenance. We are very
+									competitive on price and lead time.</p>
+								<p class="description color-text-black no-margin">Our
+									clients have greatly benefited from customized air compressors.
+									Customized air compressors vary in price but can be made in a
+									way that best suits the facility it will be used for.</p>
 							</div>
-						</div>
-						<div class="col-md-12 col-lg-12 section-md-t3">
 							<div class="row section-t3">
 								<div class="col-sm-12">
 									<div class="title-box-d">
-										<h3 class="title-d">Major Goals</h3>
+										<h3 class="title-d">Facts about customized air
+											compressors:</h3>
 									</div>
 								</div>
 							</div>
 							<div class="amenities-list color-text-black">
 								<ul class="list-a no-margin">
-									<li>Estimating compressors power consumption, Volumetric
-										efficiency of compressors, specific power consumption for
-										individual compressors and the system as a whole.</li>
-									<li>Study of accessible demand side Air Consumption.</li>
-									<li>Study of the existing operating patterns.</li>
-									<li>Study of existing compressor layout, system
-										capacitance, and distribution network and recommend
-										improvements, if any.</li>
-									<li>Recommend steps for potential energy conservation in
-										all above areas and suggest ways for optimum utilization of
-										the compressed air system.</li>
+									<li>There are a variety of air compressor types that can
+										be used for useful purposes</li>
+									<li>Air compressors can be powered by electricity, gas, or
+										diesel</li>
+									<li>Customized air compressors can be purchased new or
+										used</li>
+									<li>There are rotary screw, rotary centrifugal and
+										reciprocating air compressors</li>
+									<li>Air compressor package can be skid mounted</li>
+									<li>Desired motor make can be incorporated</li>
 								</ul>
-							</div>
-							<div class="col-md-12">
-								<div class="row">
-									<img
-										src="img/eut-services/airaudit-graph.png"
-										alt="EutAir Sales Service"
-										class="img-fluid">
-								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-10 offset-md-1">
+					<p class="description color-text-black">Air compressors can be
+						built to your specifications depending on the type of unit that
+						you need. With so many different types of air compressors
+						available, it is best we do the research for you and come up with
+						the type that best fits you and your facility’s needs.</p>
 				</div>
 				<div class="col-md-12">
 					<div class="row section-t3">
@@ -222,7 +360,7 @@
 							<h4 class="title-agent">Sales Executive</h4>
 							<img
 								src="img/eut-services/sales.jpg"
-								alt="EutAir Sales Service"
+								alt="Eutair Sales Service"
 								class="img-fluid">
 							<div class="service-agent">
 								<p class="color-text-black">Your enqueries are invited.
@@ -292,7 +430,7 @@
 												<input
 													type="text"
 													name="service"
-													value="Air Audit"
+													value="customization"
 													class="form-control form-control-lg form-control-a">
 											</div>
 										</div>

@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Air audit - Eutair Equipments</title>
+<title>EPC Turnkey - Eutair Equipments</title>
 <meta
 	content="width=device-width, initial-scale=1.0"
 	name="viewport">
 <meta
-	content="Air audit, EutAir Equipments, Elgi,Ingersoll Rand ,Gardner Denver ,Atlas Copco,Evolution,FS Curtis,Roteck,Venus ,Kaeser,Chicago pneumatics,Comptech,Mark air compressor,Delhi,Gurgaon ,Meerut,Faridabad,Ghaziabad,Sonepat,Delhi,Noida ,Greater Noida ,Manesar ,Bhiwadi,Alwar ,Moradabad ,Okhla ,Bawana ,Bahadurgarh,Ballabgarh,India ,Nepal ,Myanmar,Sri Lanka ,Bangladesh,Pakistan,Nigeria ,UAE,Dubai ,UAE ,United Arab Emirates, air audit ,energy ,audit optimization ,saving ,leakages ,electricity ,power ,health ,efficiency ,pressure ,services,current"
+	content="EPC Turnkey, EutAir Equipments, Elgi,Ingersoll Rand ,Gardner Denver ,Atlas Copco,Evolution,FS Curtis,Roteck,Venus ,Kaeser,Chicago pneumatics,Comptech,Mark air compressor,Delhi,Gurgaon ,Meerut,Faridabad,Ghaziabad,Sonepat,Delhi,Noida ,Greater Noida ,Manesar ,Bhiwadi,Alwar ,Moradabad ,Okhla ,Bawana ,Bahadurgarh,Ballabgarh,India ,Nepal ,Myanmar,Sri Lanka ,Bangladesh,Pakistan,Nigeria ,UAE,Dubai ,UAE ,United Arab Emirates, PIPING,PLANT PIPING ,AIR PIPING,WATER PIPING,PPR PIPING ,ALUMINUM PIPING,GI PIPING, Engineering commissioning  ,erection installation ,piping ,procurement ,contractor ,contract charge, Pump ,Heat exchanger ,Valves ,Auto drain valves ,FRL,Line air filters,Drain traps ,Motor ,Canopy ,Blower"
 	name="keywords">
 <meta
-	content="Optimization of Compressed air system, Capacity check, efficiency check, measure"
+	content="Design, supply, erect and commission complete Compressed Air System along with heat exchangers, cooling towers, plant air & water piping system"
 	name="description">
 <!-- Favicons -->
 <link
@@ -51,9 +51,112 @@
 </head>
 <body>
 	<!--/ Nav Star /-->
-	<?php
-    include 'nav.php';
-    ?>
+	<nav
+		class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+		<div
+			class="container"
+			style="margin-right: unset;">
+			<button
+				class="navbar-toggler collapsed"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarDefault"
+				aria-controls="navbarDefault"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span></span> <span></span> <span></span>
+			</button>
+			<logo></logo>
+			<div
+				class="navbar-collapse collapse justify-content-center"
+				id="navbarDefault">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a
+						class="nav-link"
+						href="index.html">Home</a></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown-about"
+						role="button"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"> About Us </a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown-about">
+							<a
+								class="dropdown-item"
+								href="who-we-are.html">Who We Are</a> <a
+								class="dropdown-item"
+								href="press-release-certificate.html">Press Release &
+								Certification</a>
+						</div></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown-product"
+						role="button"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"> Products </a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown-product">
+							<a
+								class="dropdown-item"
+								href="screw-air-compressor.html">Screw Air Compressor<img
+								alt="Screw Air Compressor"
+								src="img/eut-prod/sm-mark-compressors_logo.jpg" />
+							</a> <a
+								class="dropdown-item"
+								href="refrigerated-air-dryer.html">Refrigerated Air Dryers<img
+								alt="Refrigerated Air Dryers"
+								src="img/eut-prod/sm-mark-compressors_logo.jpg" />
+							</a> <a
+								class="dropdown-item"
+								href="reciprocating-compressor-and-dryer.html">Reciprocating Compressor & Dryer</a>
+							<a
+								class="dropdown-item"
+								href="spare-parts.html">Spare Parts</a> <a
+								class="dropdown-item"
+								href="pressure-vessel.html">Pressure Vessel</a>
+						</div></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown-service"
+						role="button"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false">Services</a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown-service">
+							<a
+								class="dropdown-item"
+								href="amc-service.php">Annual Maintenance Contract</a> <a
+								class="dropdown-item"
+								href="engineering-consultancy-service.php">Engineering Consultancy</a> <a
+								class="dropdown-item active"
+								href="epc-turnkey-service.html">EPC-Turnkey Solutions</a> <a
+								class="dropdown-item"
+								href="air-audit-service.php">Air Audits</a> <a
+								class="dropdown-item"
+								href="customization-service.php">Product Customization</a> <a
+								class="dropdown-item"
+								href="training-workshop-service.html">Seminars, Webinars & Workshops</a><a
+								class="dropdown-item"
+								href="waste-water-engineering.html">Wastewater Engineering</a>
+						</div></li>
+					<li class="nav-item"><a
+						class="nav-link"
+						href="contact.php">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<contact-info class="contact-info-custom"></contact-info>
+	</nav>
 	<!--/ Nav End /-->
 	<!--/ Intro Single star /-->
 	<section class="intro-single color-background-custom">
@@ -61,8 +164,8 @@
 			<div class="row">
 				<div class="col-md-12 col-lg-6">
 					<div class="title-single-box">
-						<h1 class="title-single">Air Audits</h1>
-						<span class="color-text-a">Audits</span>
+						<h1 class="title-single">EPC Turnkey</h1>
+						<span class="color-text-a">EPC</span>
 					</div>
 				</div>
 				<div class="col-md-12 col-lg-6">
@@ -78,7 +181,7 @@
 								href="#">Services</a></li>
 							<li
 								class="breadcrumb-item active"
-								aria-current="page">Air Audits</li>
+								aria-current="page">EPC Turnkey</li>
 						</ol>
 					</nav>
 				</div>
@@ -96,19 +199,19 @@
 						class="owl-carousel owl-arrow gallery-property">
 						<div class="carousel-item-b">
 							<img
-								src="img/eut-services/air-audit.jpg"
-								alt="Air Audit">
+								src="img/eut-services/epc-1.jpg"
+								alt="EPC Turnkey">
 							<div class="intro-content display-table centered-custom">
 								<div class="table-cell">
 									<div class="container">
 										<div class="row">
-											<div class="col-lg-10">
+											<div class="col-lg-8">
 												<div class="intro-body">
+													<p class="intro-title-top"></p>
 													<h1 class="intro-title mb-4 tagline-size">
-														<span class="color-eutair">Air is free, compressed
-															air is not.</span><br>We audit the most difficult, identify
-														and plug-out <br>the inefficiencies in compressed air
-														system.
+														<span style="color: #FFFFFF">We conquer <br>Air,
+															Land, Ocean
+														</span>
 													</h1>
 												</div>
 											</div>
@@ -119,19 +222,21 @@
 						</div>
 						<div class="carousel-item-b">
 							<img
-								src="img/eut-services/air-audit-2.png"
-								alt="Air Audit">
+								src="img/eut-services/epc-2.jpg"
+								alt="EPC Turnkey">
 							<div class="intro-content display-table centered-custom">
 								<div class="table-cell">
 									<div class="container">
-										<div class="row">
-											<div class="col-lg-8">
+										<div
+											class="row"
+											style="float: right;">
+											<div class="col-lg-10">
 												<div class="intro-body">
 													<p class="intro-title-top"></p>
 													<h1 class="intro-title mb-4 tagline-size">
-														<span style="color: #FFFFFF">Get your overall <br>system
-															health checked today!!
-														</span>
+														<span style="color: #FFFFFF;">From concept to
+															creation. </span> <br> <span class="color-eutair-icon">Converting
+															your dreams to reality.</span>
 													</h1>
 												</div>
 											</div>
@@ -146,13 +251,43 @@
 							<div class="service-price d-flex justify-content-center foo">
 								<div class="card-header-c d-flex">
 									<div class="card-box-ico">
-										<span class="fa fa-usd"></span>
+										<span class="fa fa-key"></span>
 									</div>
 									<div class="card-title-c align-self-center">
-										<h5 class="title-c">Air Audits</h5>
+										<h5 class="title-c">EPC Turnkey</h5>
 									</div>
 								</div>
 							</div>
+							<!-- 							<div class="service-summary"> -->
+							<!-- 								<div class="row"> -->
+							<!-- 									<div class="col-sm-12"> -->
+							<!-- 										<div class="title-box-d section-t4"> -->
+							<!-- 											<h3 class="title-d">Quick Summary</h3> -->
+							<!-- 										</div> -->
+							<!-- 									</div> -->
+							<!-- 								</div> -->
+							<!-- 								<div class="summary-list"> -->
+							<!-- 									<ul class="list"> -->
+							<!-- 										<li class="d-flex justify-content-between"><strong>Download -->
+							<!-- 												Brochure:</strong> <span><a href="img/docs/mark-brochure.pdf" -->
+							<!-- 												download>Click Here</a></span></li> -->
+							<!-- 									</ul> -->
+							<!-- 									<div class="card-box-d"> -->
+							<!-- 										<div class="card-img-d"> -->
+							<!-- 											<img src="img/docs/certificate.jpg" alt="" -->
+							<!-- 												class="img-d img-fluid"> -->
+							<!-- 										</div> -->
+							<!-- 										<div -->
+							<!-- 											class="card-overlay card-overlay-hover card-overlay-custom"> -->
+							<!-- 											<div class="card-header-d"> -->
+							<!-- 												<div class="card-title-d align-self-center"> -->
+							<!-- 													<h3 class="title-d">Certification</h3> -->
+							<!-- 												</div> -->
+							<!-- 											</div> -->
+							<!-- 										</div> -->
+							<!-- 									</div> -->
+							<!-- 								</div> -->
+							<!-- 							</div> -->
 						</div>
 						<div class="col-md-7 col-lg-7 section-md-t3">
 							<div class="row">
@@ -163,48 +298,20 @@
 								</div>
 							</div>
 							<div class="service-description">
-								<p class="description color-text-black">Performing a
-									compressed air audit of your system is the first step in
-									determining issues that could be hindering your unit’s
-									efficiency and unnecessarily increasing energy costs. Key
-									deliverable is to optimize the efficiency of complete
-									compressed air system so as to bring down the production &
-									maintenance cost. Air audits are also a solution to correct
-									sizing of compressed air system at Generation side to match the
-									air requirement at demand side. A typical air audit brings down
-									the electricity cost by average 30%.</p>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-12 section-md-t3">
-							<div class="row section-t3">
-								<div class="col-sm-12">
-									<div class="title-box-d">
-										<h3 class="title-d">Major Goals</h3>
-									</div>
-								</div>
-							</div>
-							<div class="amenities-list color-text-black">
-								<ul class="list-a no-margin">
-									<li>Estimating compressors power consumption, Volumetric
-										efficiency of compressors, specific power consumption for
-										individual compressors and the system as a whole.</li>
-									<li>Study of accessible demand side Air Consumption.</li>
-									<li>Study of the existing operating patterns.</li>
-									<li>Study of existing compressor layout, system
-										capacitance, and distribution network and recommend
-										improvements, if any.</li>
-									<li>Recommend steps for potential energy conservation in
-										all above areas and suggest ways for optimum utilization of
-										the compressed air system.</li>
-								</ul>
-							</div>
-							<div class="col-md-12">
-								<div class="row">
-									<img
-										src="img/eut-services/airaudit-graph.png"
-										alt="EutAir Sales Service"
-										class="img-fluid">
-								</div>
+								<p class="description color-text-black">Be it a simple
+									supply of equipment or be it complete EPC turnkey solution with
+									an integration of design, engineering, project management,
+									procurement and execution of civil work, piping, electrical,
+									remote monitoring & controls, we do it all for your peace of
+									mind.</p>
+								<p class="description color-text-black no-margin">We
+									undertake EPC Turnkey projects that includes design, supply,
+									erect and commission complete Compressed Air System along with
+									heat exchangers, cooling towers, plant air & water piping
+									system. We design, develop and charge up all the three sides-
+									Generation, Distribution & Demand. We have executed projects in
+									India and abroad. We also undertake after sales services for
+									these projects.</p>
 							</div>
 						</div>
 					</div>
@@ -222,7 +329,7 @@
 							<h4 class="title-agent">Sales Executive</h4>
 							<img
 								src="img/eut-services/sales.jpg"
-								alt="EutAir Sales Service"
+								alt="Eutair Sales Service"
 								class="img-fluid">
 							<div class="service-agent">
 								<p class="color-text-black">Your enqueries are invited.
@@ -292,7 +399,7 @@
 												<input
 													type="text"
 													name="service"
-													value="Air Audit"
+													value="EPC Turnkey"
 													class="form-control form-control-lg form-control-a">
 											</div>
 										</div>
