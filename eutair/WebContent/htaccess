@@ -1,0 +1,11 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^eutair\.com$ [OR]
+
+RewriteCond %{HTTP_HOST} ^www\.eutair\.com$
+RewriteRule ^/?$ "https\:\/\/www\.eutair\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
